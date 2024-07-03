@@ -230,10 +230,10 @@ export function onAction(
   // check all arguments
   assertIsStateTreeNode(target, 1)
   if (devMode()) {
-    if (!isRoot(target))
-      warnError(
-        "Warning: Attaching onAction listeners to non root nodes is dangerous: No events will be emitted for actions initiated higher up in the tree."
-      )
+    // if (!isRoot(target))
+    //   warnError(
+    //     "Warning: Attaching onAction listeners to non root nodes is dangerous: No events will be emitted for actions initiated higher up in the tree."
+    //   )
     if (!isProtected(target))
       warnError(
         "Warning: Attaching onAction listeners to non protected nodes is dangerous: No events will be emitted for direct modifications without action."
