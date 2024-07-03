@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mobxjs/mobx-state-tree.git"
+    "url": "https://github.com/deniskutovskiy/mobx-state-tree.git"
   },
   "author": "Michel Weststrate",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mobxjs/mobx-state-tree/issues"
+    "url": "https://github.com/deniskutovskiy/mobx-state-tree/issues"
   },
   "files": [
     "dist/"
@@ -116,5 +116,8 @@
       "webpack": false,
       "running": false
     }
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
